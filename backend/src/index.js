@@ -10,7 +10,7 @@ async function startServer() {
   });
 
   const { url } = await startStandaloneServer(server, {
-    listen: { port: 4000 },
+    listen: { port: process.env.PORT || 4000 },
     context: async ({ req }) => {
       // Stub auth context (will verify JWT here in real life)
       const authHeader = req.headers.authorization || '';
