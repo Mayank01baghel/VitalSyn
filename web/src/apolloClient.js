@@ -3,7 +3,7 @@ import { setContext } from '@apollo/client/link/context';
 import { auth } from './firebase';
 
 const httpLink = createHttpLink({
-  uri: 'http://localhost:4000/', // Backend URL
+  uri: import.meta.env.VITE_GRAPHQL_URL || 'http://localhost:4000/', // Backend URL
 });
 
 const authLink = setContext(async (_, { headers }) => {
