@@ -1,0 +1,157 @@
+{
+  "users": {
+    "mock-user-123": {
+      "name": "Mayank ",
+      "weight": 80,
+      "height": 180,
+      "bmi": 24.7
+    },
+    "mock-user-ZGNzZHNAbWFpbC5jb20=": {
+      "name": "Mayank",
+      "weight": 80,
+      "height": 180,
+      "bmi": 24.7
+    },
+    "mock-user-bWRtc0BtYWlsLmNvbQ==": {
+      "name": "mammo",
+      "weight": 144,
+      "height": 190,
+      "bmi": 39.9
+    },
+    "mock-user-YWRtaW5AYWRtaW4uY29t": {
+      "name": "rahul ",
+      "weight": 60,
+      "height": 177,
+      "bmi": 19.2,
+      "targetPhysique": "Maintenance"
+    }
+  },
+  "adminUsers": [
+    {
+      "id": "1",
+      "name": "Alice Smith",
+      "email": "alice@example.com",
+      "role": "User",
+      "status": "Active",
+      "joined": "2023-10-12"
+    },
+    {
+      "id": "2",
+      "name": "Bob Jones",
+      "email": "bob@example.com",
+      "role": "Moderator",
+      "status": "Active",
+      "joined": "2023-11-05"
+    },
+    {
+      "id": "3",
+      "name": "Charlie Brown",
+      "email": "charlie@example.com",
+      "role": "User",
+      "status": "Suspended",
+      "joined": "2024-01-20"
+    },
+    {
+      "id": "4",
+      "name": "Admin Account",
+      "email": "admin@admin.com",
+      "role": "Super Admin",
+      "status": "Active",
+      "joined": "2023-01-01"
+    }
+  ],
+  "adminContentList": [
+    {
+      "id": "c1",
+      "user": "Alice Smith",
+      "type": "Review",
+      "content": "Great app, syncing with my Apple Watch is seamless.",
+      "status": "Pending Approval",
+      "date": "2 hours ago"
+    },
+    {
+      "id": "c2",
+      "user": "Bob Jones",
+      "type": "Community Post",
+      "content": "Anyone else experiencing high battery drain when tracking sleep?",
+      "status": "Approved",
+      "date": "1 day ago"
+    },
+    {
+      "id": "c3",
+      "user": "Charlie Brown",
+      "type": "Review",
+      "content": "Terrible update. Crashes all the time.",
+      "status": "Flagged",
+      "date": "3 days ago"
+    }
+  ],
+  "adminTransactions": [
+    {
+      "id": "TRX-9823",
+      "user": "Alice Smith",
+      "type": "Subscription",
+      "amount": "$9.99",
+      "status": "Completed",
+      "date": "Today, 10:42 AM"
+    },
+    {
+      "id": "TRX-9824",
+      "user": "Bob Jones",
+      "type": "Consultation Booking",
+      "amount": "$49.00",
+      "status": "Pending",
+      "date": "Today, 09:15 AM"
+    },
+    {
+      "id": "TRX-9825",
+      "user": "Charlie Brown",
+      "type": "Hardware Purchase",
+      "amount": "$129.99",
+      "status": "Refunded",
+      "date": "Yesterday, 04:30 PM"
+    },
+    {
+      "id": "TRX-9826",
+      "user": "Diana Prince",
+      "type": "Subscription",
+      "amount": "$9.99",
+      "status": "Completed",
+      "date": "Yesterday, 11:20 AM"
+    }
+  ],
+  "adminNotifications": [
+    {
+      "id": "1",
+      "type": "System Alert",
+      "message": "High CPU usage detected on Node 3.",
+      "time": "10 mins ago",
+      "status": "Active"
+    },
+    {
+      "id": "2",
+      "type": "Support Ticket",
+      "message": "User reported app crash on iOS 16.",
+      "time": "1 hour ago",
+      "status": "Resolved"
+    }
+  ],
+  "adminAuditLogs": [
+    {
+      "id": "AL-1001",
+      "admin": "admin@admin.com",
+      "action": "Failed Login Attempt",
+      "ip": "192.168.1.45",
+      "time": "10:45 AM, Today",
+      "severity": "High"
+    },
+    {
+      "id": "AL-1002",
+      "admin": "admin@admin.com",
+      "action": "Successful Login",
+      "ip": "10.0.0.12",
+      "time": "09:00 AM, Today",
+      "severity": "Info"
+    }
+  ]
+}

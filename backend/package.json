@@ -1,0 +1,17 @@
+{
+  "name": "vital-sync-backend",
+  "version": "1.0.0",
+  "description": "Vital Sync Backend API",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@apollo/server": "4.10.0",
+    "cors": "^2.8.6",
+    "dotenv": "^16.0.3",
+    "express": "^4.22.2",
+    "firebase-admin": "^14.1.0",
+    "graphql": "16.8.1"
+  }
+}
